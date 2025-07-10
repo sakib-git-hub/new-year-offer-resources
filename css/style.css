@@ -1,0 +1,408 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* banner section */
+
+.banner{
+background-image: url('/images/Banner\ Image.png');
+height: 600px;
+width: 1320px;
+margin: 0 auto;
+filter:saturate(1);
+filter:grayscale(0.5);
+box-shadow:10px 255px 100px 50px inset rgba(0, 0, 0, 0.368);
+
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+}
+.banner-text h1{
+     font-size: 72px;
+}
+.banner-text h4{
+     font-size: 32px;
+     margin-top: 150px;
+}
+
+
+/* discount */
+.offer-parent{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+
+}
+
+.offer>h1{
+    color: red;
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.offer>h6{
+    color: red;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.offer>h3{
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* midnight-section */
+.midnight-section{
+ margin: 120px auto;
+ border-radius: 20px;
+    height: 600px;
+    width: 1320px;
+    color: white;
+    background-image: url('/images/Vectorrr.png');
+    box-shadow:850px 0px 500px  rgba(0, 0, 0, 0.596) inset;
+}
+
+.midnight-child h1{
+font-size: 64px;
+text-indent: 100px;
+padding-top: 150px;
+
+}
+.midnight-child pre{
+font-size: 18px;
+text-indent: 70px;
+padding-top: 50px;
+
+}
+.midnight-child h4{
+font-size: 20px;
+font-weight: bold;
+text-indent: 110px;
+padding-top: 50px;
+
+}
+#group-70{
+height: 400px;
+width: 300px;
+float: right;
+position: relative;
+bottom: 300px;
+right: 120px;
+}
+
+/* hotel-visit */
+
+.hotel-visit{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 482px;
+width: 1320px;
+background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(235, 217, 217, 0.86));
+margin: auto;
+border-radius: 15px;
+}
+
+.text-style{
+color: red;
+}
+.visit-time h1{
+text-align: center;
+font-size: 32px;
+font-weight:800;
+}
+.visit-time{
+
+}
+.btn{
+height: 52px;
+width: 150px;
+border-radius: 12px;
+position: relative;
+left: 600px;
+top: 30px;
+padding: 15px;
+font-size: 20px;
+color: white;
+background-color: red;
+border: none;
+cursor: pointer;  
+}
+
+/* coming-soon */
+.coming-soon-parent{
+    margin: 220px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+    height: 463px;
+    width: 1320px;
+    padding-bottom: 50px;
+}
+.left-text{
+    height:128px;
+    width: 353px;
+    padding-bottom: 100px;
+    
+}
+.left-text h4{
+    font-size: 24px;
+    padding-top: 10px;
+    color: red;
+}
+.left-text h2{
+    font-size: 48px;
+
+}
+.left-text pre{
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.right-text{
+    height:128px;
+    width: 353px;
+    padding-bottom: 210px;
+}
+.right-text h2{
+    font-size: 48px;
+    padding-top: 10px;
+    color: red;
+}
+.right-text pre{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.Ellipse{
+    position: relative;
+    left: 45px;
+    top: 15px;
+   padding: 20px;
+    border: 10px solid red;
+    border-radius:60% ;
+}
+/* holidays-sales */
+.holidays-sales{
+    margin: auto;
+    height: 770px;
+    width: 1320px;
+}
+.holidays-sales-title{
+    display: flex;
+     margin: 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 1068px;
+}
+.holidays-sales-title h5{
+    font-size: 24px;
+}
+.holidays-sales-title h1{
+    font-size: 72px;
+}
+.holidays-sales-title pre{
+    font-size: 20px;
+}
+.text-style{
+    color: red;
+}
+.holidays-sales-img{
+    height: 650px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+}
+.holidays-sales-img>img{
+ position: absolute;
+ margin-top: 410px;
+}
+.holidays-sales-img>img+img{
+ position: absolute;
+ bottom: 0px;
+ left: 50px;
+}
+.holidays-sales-img>img+img+img{
+position: absolute;
+ bottom: 220px;
+ left: 950px;
+}
+
+ /* portfolio-card-section */
+ .portfolio-card{
+    margin: 180px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 1320px;
+    height:1163px;
+
+ }
+
+ .card-title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+ }
+.card-title h4{
+    font-size: 24px;
+    color: red;
+}
+.card-title h1{
+    font-size: 48px;
+    color: black;
+}
+.card-title p{
+    font-size: 20px;
+
+}
+.card-child{
+    
+}
+
+/* newsletter-section */
+.newsletter-parent{
+    background-color: #f6c2c2d3;
+    margin: 180px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 616px;
+    width: 1320px;
+
+}
+.newsletter-child{
+    height: 300px;
+margin: auto;
+margin-top: 130px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.newsletter-child h1{
+    font-size: 48px;
+
+}
+.newsletter-child p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-field{
+      display: flex;
+      justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 100px;
+   
+}
+.input-field #email{
+    width: 300px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 20px 0px 0 20px;
+    border: none;
+   cursor: pointer;
+
+}
+.input-field #sub-btn{  
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 0px;
+    width: 180px;
+    height: 40px;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+/* footer-start-here */
+footer{
+    background-color: black;
+    margin-left:15px;
+      height: 609px;
+    
+   
+}
+.text-parent{
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+    width: 1600px;
+border-bottom: 1px solid rgb(140, 131, 131);
+   margin:0 auto;
+   margin-right:150px;
+  color: white;
+  
+}
+.footer-child1{
+font-size: 24px;
+margin-top: 100px;
+
+}
+.footer-child2{
+    font-size: 24px;
+    margin-top: 100px;
+}
+
+.icon-parent{
+       display: flex;
+    justify-content: space-between;
+    height: 190px;
+    width: 1600px;
+border-bottom: 1px solid rgb(140, 131, 131);
+   margin:0 auto;
+   margin-right:150px;
+  color: white;
+}
+.icon-child{
+    margin: auto;
+    color: aliceblue;
+    font-size: 70px;
+
+}
+.icon-child #fb{
+    color: rgb(44, 44, 252);
+}
+.icon-child #insta{
+    color: rgb(231, 58, 48);
+}
+.icon-child #twit{
+    color: rgb(62, 62, 66);
+}
+.icon-child #in{
+    color: rgb(67, 67, 238);
+}
+
+.copyright-child2{
+      display: flex;
+    justify-content: space-between;
+    height: 190px;
+    width: 1600px;
+ font-size: 24px;
+   margin:50px auto;
+   margin-right:150px;
+  color: white;
+}
