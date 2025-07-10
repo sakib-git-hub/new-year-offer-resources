@@ -7,7 +7,7 @@
 /* banner section */
 
 .banner{
-background-image: url('/images/Banner\ Image.png');
+background-image: url('../images/Banner\ Image.png');
 height: 600px;
 width: 1320px;
 margin: 0 auto;
@@ -72,7 +72,7 @@ box-shadow:10px 255px 100px 50px inset rgba(0, 0, 0, 0.368);
     height: 600px;
     width: 1320px;
     color: white;
-    background-image: url('/images/Vectorrr.png');
+    background-image: url('../images/Vectorrr.png');
     box-shadow:850px 0px 500px  rgba(0, 0, 0, 0.596) inset;
 }
 
@@ -350,7 +350,7 @@ footer{
     display: flex;
     justify-content: space-between;
     height: 190px;
-    width: 1600px;
+    width: 1200px;
 border-bottom: 1px solid rgb(140, 131, 131);
    margin:0 auto;
    margin-right:150px;
@@ -371,7 +371,7 @@ margin-top: 100px;
        display: flex;
     justify-content: space-between;
     height: 190px;
-    width: 1600px;
+    width: 1200px;
 border-bottom: 1px solid rgb(140, 131, 131);
    margin:0 auto;
    margin-right:150px;
@@ -400,7 +400,7 @@ border-bottom: 1px solid rgb(140, 131, 131);
       display: flex;
     justify-content: space-between;
     height: 190px;
-    width: 1600px;
+    width: 1200px;
  font-size: 24px;
    margin:50px auto;
    margin-right:150px;
