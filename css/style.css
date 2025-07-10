@@ -385,15 +385,19 @@ border-bottom: 1px solid rgb(140, 131, 131);
 }
 .icon-child #fb{
     color: rgb(44, 44, 252);
+    cursor: pointer;
 }
 .icon-child #insta{
     color: rgb(231, 58, 48);
+     cursor: pointer;
 }
 .icon-child #twit{
     color: rgb(62, 62, 66);
+     cursor: pointer;
 }
 .icon-child #in{
     color: rgb(67, 67, 238);
+     cursor: pointer;
 }
 
 .copyright-child2{
