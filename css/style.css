@@ -156,7 +156,7 @@ cursor: pointer;
 }
 .left-text{
     height:128px;
-    width: 353px;
+    width: 280px;
     padding-bottom: 100px;
     
 }
@@ -190,7 +190,7 @@ cursor: pointer;
 }
 .Ellipse{
     position: relative;
-    left: 45px;
+    left: 50px;
     top: 15px;
    padding: 20px;
     border: 10px solid red;
